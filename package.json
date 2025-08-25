@@ -1,0 +1,19 @@
+{
+  "name": "uomi-lifeline-agent",
+  "version": "1.1.0",
+  "description": "UOMI Lifeline Faucet Agent – native UOMI faucet with cooldown, anti-bot (EOA), donations, pause, and admin ops.",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:uomi": "hardhat run scripts/deploy.js --network uomi",
+    "lint": "echo \"(add eslint/prettier if you want)\""
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.20.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
